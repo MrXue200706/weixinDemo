@@ -5,3 +5,41 @@
         </swiper-item>
     </block>
 </swiper>
+<view class="weui-grids">
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/home.png"></image>
+        </view>
+        <text class="weui-grid__label">首页</text>
+    </view>
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/note.png"></image>
+        </view>
+        <text class="weui-grid__label">热点新闻</text>
+    </view>
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/board.png"></image>
+        </view>
+        <text class="weui-grid__label">图片</text>
+    </view>
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/profile.png"></image>
+        </view>
+        <text class="weui-grid__label">联系我们</text>
+    </view>
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/search.png"></image>
+        </view>
+        <text class="weui-grid__label">搜索</text>
+    </view>
+    <view  class="weui-grid">
+        <view class="weui-grid__icon">
+            <image src="../../images/icon_tabbar.png"></image>
+        </view>
+        <text class="weui-grid__label">关于</text>
+    </view>
+</view>
