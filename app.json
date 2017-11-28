@@ -1,8 +1,8 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/movie/movie",
-    "pages/about/about"
+    "pages/goods/goods",
+    "pages/shopCart/shopCart"
   ],
   "tabBar": {
     "backgroundColor":"#999",
@@ -17,14 +17,14 @@
       "selectedIconPath": "images/home-actived.png"
     },
     {
-      "pagePath": "pages/movie/movie",
-      "text": "电影",
+      "pagePath": "pages/goods/goods",
+      "text": "商品购买",
       "iconPath": "images/board.png",
       "selectedIconPath": "images/board-actived.png"
     },
     {
-      "pagePath": "pages/about/about",
-      "text": "关于",
+      "pagePath": "pages/shopCart/shopCart",
+      "text": "购物车",
       "iconPath": "images/profile.png",
       "selectedIconPath": "images/profile-actived.png"
     }
