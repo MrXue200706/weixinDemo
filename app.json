@@ -2,7 +2,9 @@
   "pages":[
     "pages/home/home",
     "pages/goods/goods",
-    "pages/shopCart/shopCart"
+    "pages/shopCart/shopCart",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail"
   ],
   "tabBar": {
     "backgroundColor":"#999",
@@ -19,13 +21,13 @@
     {
       "pagePath": "pages/goods/goods",
       "text": "商品购买",
-      "iconPath": "images/board.png",
+      "iconPath": "images/supermarket22.png",
       "selectedIconPath": "images/board-actived.png"
     },
     {
       "pagePath": "pages/shopCart/shopCart",
       "text": "购物车",
-      "iconPath": "images/profile.png",
+      "iconPath": "images/shopping211.png",
       "selectedIconPath": "images/profile-actived.png"
     }
   ]},

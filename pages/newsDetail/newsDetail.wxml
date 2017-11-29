@@ -1,0 +1,18 @@
+<view class="page article js_show">
+    <view class="page__hd">
+        <text class="page__title">{{newsDetail.title}}</text>
+        <text class="page__desc">{{newsDetail.add_time}}</text>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <text>
+                <text>
+                    {{newsDetail.content.text}}
+                </text>
+            </text>
+        </view>
+    </view>
+    <view class="page__ft">
+
+    </view>
+</view>

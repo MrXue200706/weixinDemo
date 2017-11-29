@@ -12,12 +12,12 @@
         </view>
         <text class="weui-grid__label">首页</text>
     </view>
-    <view  class="weui-grid">
+    <navigator url="../news/news"  class="weui-grid">
         <view class="weui-grid__icon">
             <image src="../../images/note.png"></image>
         </view>
         <text class="weui-grid__label">热点新闻</text>
-    </view>
+    </navigator>
     <view  class="weui-grid">
         <view class="weui-grid__icon">
             <image src="../../images/board.png"></image>

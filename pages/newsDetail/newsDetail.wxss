@@ -1,0 +1,16 @@
+.page__title {
+    display:block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    /*隐藏超出部分的文本，显示省略号，不折行*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.page__desc {
+    margin-top: 5px;
+    color: #888;
+    text-align: left;
+    font-size: 14px;
+}

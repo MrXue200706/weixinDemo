@@ -1,0 +1,7 @@
+.weui-media-box__thumb{
+    width:42px;
+    height:42px;
+}
+.weui-media-box__bd{
+    margin-left:6px;
+}
