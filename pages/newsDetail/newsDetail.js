@@ -1,4 +1,4 @@
- var WxParse=require("../../wxParse/wxParse.js");
+var WxParse=require("../../wxParse/wxParse.js");
 Page({
     data:{
         newsDetail:{},
@@ -27,6 +27,7 @@ Page({
             }
         })
     },
+
     onLoad(option){
         //地址栏传来的参数在option里面直接可以获取
         let id=option.id;
@@ -35,7 +36,16 @@ Page({
             id:id
         })
     },
+
     onReady(){
         this.getNewsDetail("http://vue.studyit.io/api/getnew/",this.data.id)
+    },
+
+    //转发分享功能===========================
+    onShareAppMessage(menu){
+        return{
+            title:this.state.newsDetail.title,
+            path:'/'
+        }
     }
 })

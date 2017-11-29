@@ -1,0 +1,47 @@
+navigator{
+    display:inline-block;
+    width:42%;
+    border:2px solid #eee;
+    margin:10px;
+    box-shadow:0 5px 5px 5px #eee;
+}
+image{
+    margin:0 10px;
+    width:90%;
+    height:120px;
+}
+.mui-card-content{
+    width:100%;
+    /*隐藏超出部分的文本，显示省略号，不折行*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0 20px;
+}
+.mui-card-footer{
+    width:100%;
+    /*隐藏超出部分的文本，显示省略号，不折行*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.price,.tip{
+    display:block;
+    font-size:10px;
+}
+
+.mui-ellipsis-2{
+    font-size:12px;
+}
+.market{
+    text-decoration:line-through;
+    font-size:10px;
+}
+.sell{
+    color:red;
+}
+.bottomText{
+    text-align: center;
+    border:2px solid #eee;
+    color:red;
+}

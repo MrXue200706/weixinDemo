@@ -10,3 +10,4 @@ notes:
 5.navigator页面导航的url不用写文件后缀，app.json里面也不用
 6.stopPullDownRrfresh()取消下来刷新，一般完成请求后就可以取消下拉，提高体验
 7.路由时地址栏传参：在url参数里?后面拼接参数,注意参数键值是用等于号连接id={{item.id}}
+8.数组要用...解开才能正常被push进另一个数组

@@ -1,3 +1,26 @@
 <view>
-    
+    <navigator wx:for="{{goodsList}}"  url="">
+        <view  class="mui-card">
+            <view  class="mui-card-header">
+                <image src="{{item.img_url}}"></image>
+            </view>
+            <view  class="mui-card-footer ">
+                <text  class="mui-ellipsis-2">{{item.title}}</text>
+            </view>
+            <view  class="mui-card-content">
+                <text  class="price">
+                    <text class="market">￥{{item.market_price}}</text>
+                    <text class="sell">￥{{item.sell_price}}</text>
+                </text>
+                <text  class="tip">
+                    <text >热卖中</text>
+                    <text >剩余{{item.stock_quantity}}件</text>
+                </text>
+            </view>
+        </view>
+    </navigator>
+</view>
+
+<view wx:if="{{next}}" class='bottomText'>
+    <text>已经是最后一页了......</text>
 </view>
