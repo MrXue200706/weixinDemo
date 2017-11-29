@@ -5,7 +5,7 @@
         </view>
         <view class="weui-media-box__bd">
             <text class="weui-media-box__title">{{item.title}}</text>
-            <text class="weui-media-box__desc">{{item.zhaiyao}}</text>
+            <text decode="false" class="weui-media-box__desc">{{item.zhaiyao}}</text>
         </view>
     </navigator>
 </view> 

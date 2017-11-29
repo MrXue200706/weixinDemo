@@ -1,3 +1,4 @@
+<import src="../../wxParse/wxParse.wxml" />
 <view class="page article js_show">
     <view class="page__hd">
         <text class="page__title">{{newsDetail.title}}</text>
@@ -5,11 +6,7 @@
     </view>
     <view class="page__bd">
         <view class="weui-article">
-            <text>
-                <text>
-                    {{newsDetail.content.text}}
-                </text>
-            </text>
+            <template is="wxParse" data="{{wxParseData:content.nodes}}"></template>
         </view>
     </view>
     <view class="page__ft">

@@ -14,3 +14,7 @@
     text-align: left;
     font-size: 14px;
 }
+.page__hd{
+    padding:10px;
+    border-bottom:2px solid #eee;
+}

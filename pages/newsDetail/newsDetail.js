@@ -1,7 +1,9 @@
+ var WxParse=require("../../wxParse/wxParse.js");
 Page({
     data:{
         newsDetail:{},
-        id:''
+        id:'',
+        content:""
     },
 
     //封装一个获取详情的函数
@@ -16,10 +18,11 @@ Page({
                 // console.log(res.data.message[0])
                 let newsDetail={};//========================
                 newsDetail=res.data.message[0];
-
+                console.log(newsDetail.content);
                 //修改静态数据里的newsDetail=====================
                 that.setData({
-                    newsDetail:newsDetail
+                    newsDetail:newsDetail,
+                    content:WxParse.wxParse('content','html',newsDetail.content,that,5)
                 })
             }
         })
